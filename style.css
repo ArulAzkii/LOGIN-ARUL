@@ -1,0 +1,68 @@
+body {
+    margin: 0; /* Menghilangkan margin default */
+    height: 100vh; /* Tinggi halaman penuh */
+    display: flex; /* Menggunakan flexbox untuk penataan */
+    flex-direction: column; /* Mengatur arah flex ke kolom */
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center; /* Memusatkan konten secara horizontal */
+    background-color: #4ce3ee; /* Warna latar belakang halaman */
+    position: relative; /* Supaya elemen absolut dapat diposisikan relatif terhadap body */
+}
+
+.instagram-link {
+    position: absolute; /* Posisi absolut untuk meletakkan di pojok kanan atas */
+    top: 10px; /* Jarak dari atas */
+    right: 10px; /* Jarak dari kanan */
+    color: white; /* Warna teks */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-size: 14px; /* Ukuran font */
+}
+
+.instagram-link:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+.welcome {
+    color: rgb(0, 0, 0); /* Warna teks */
+    padding: 20px; /* Jarak di dalam teks */
+    border-radius: 10px; /* Membuat sudut bulat */
+    background-color: mintcream; /* Warna latar belakang untuk teks */
+    text-align: center; /* Memusatkan teks */
+    margin-bottom: 400px; /* Memberi jarak di bawah teks selamat datang */
+    width: 100%; /* Mengatur lebar menjadi 100% */
+
+}
+
+
+table {
+    width: 400px; /* Lebar tabel */
+    border-collapse: collapse; /* Hilangkan jarak antara sel */
+    background-color: rgb(180, 79, 126); /* Warna latar belakang tabel */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.144); /* Bayangan tabel */
+    padding-top: 90%;
+}
+
+th, td {
+    padding: 6px; /* Jarak di dalam sel */
+    text-align: left; /* Rata kiri teks */
+
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%; /* Mengisi lebar sel */
+    padding: 5px; /* Jarak di dalam input */
+    margin: 0; /* Menghilangkan margin */
+}
+
+button {
+    width: 100%; /* Tombol mengisi lebar sel */
+    padding: 10px; /* Jarak di dalam tombol */
+    background-color: lightblue; /* Warna latar belakang tombol */
+    border: none; /* Hilangkan border tombol */
+    cursor: pointer; /* Kursor berubah saat hover di tombol */
+}
+
+button:hover {
+    background-color: deepskyblue; /* Warna latar belakang saat hover */
+}
